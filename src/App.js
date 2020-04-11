@@ -1,10 +1,12 @@
-import React from 'react';
-import Header from './components/Header'
+import React from "react";
+import Header from "./components/Header/Header";
+import EstimatorForm from "./components/EstimatorForm";
 
 function App() {
   return (
-    <div className="App">
-<Header />
+    <div style={{ background: "white", color: "black" }}>
+      <Header />
+      <EstimatorForm />
     </div>
   );
 }
